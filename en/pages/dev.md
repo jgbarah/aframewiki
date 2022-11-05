@@ -1,4 +1,5 @@
 # Development
+
 ## dev components
 * [in-VR stats](https://github.com/kylebakerio/vr-super-stats)
 * [in-VR console](https://github.com/kylebakerio/a-console)
@@ -6,10 +7,12 @@
 * [log-all-events](https://github.com/kylebakerio/log-all-events/)
 * [debug-cursor](https://github.com/supermedium/superframe/tree/master/components/debug-cursor/)
 * [desktop-vr-controller](https://diarmidmackenzie.github.io/aframe-examples/docs/desktop-vr-controller.html)
+
 ## debugging tools
 * [aframe-inspector](https://github.com/aframevr/aframe-inspector)
 * [three debugger](https://github.com/oslabs-beta/BACE#readme)
 * [cannon debugger](https://github.com/pmndrs/cannon-es-debugger)
+
 ### Emulating different VR devices in your browser
 For Quest 2, the latest option is [The WebXR Quest Emulator](https://github.com/felixtrz/WebXRQuestEmulator).
 
@@ -23,6 +26,7 @@ For more broad usage, the [WebXR Emulator Extension](https://chrome.google.com/w
 > ```
 > in chrome, in extensions, click on the "load non packaged extension" button and select the WebXR-emulator-extension folder
 > 
+
 ## HTTPS
 WebXR can only run over HTTPS.
 It's super -easy to run a local HTTP server using node.js (http-server) or python (python -m http.server), but not quite so easy to set up an HTTPS server.
