@@ -60,6 +60,4 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
 
-<!--
 [gimmick:themechooser](Choose theme)
--->
