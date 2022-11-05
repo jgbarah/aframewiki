@@ -6,7 +6,7 @@
 
 # A-Frame Wiki
 <a href="https://aframe.wiki">
-  <img src="/docs/assets/img/aframe-logo.png" style="height:20px;"></a>
+  <img src="aframewiki/docs/assets/img/aframe-logo.png" style="height:20px;"></a>
 <!-- ![AFRAME Logo](/docs/assets/img/aframe-logo.png) -->
 
 
