@@ -3,7 +3,7 @@
   -- Do NOT remove the leading `#` character.
   -->
 
-# Your wiki name
+# A-Frame Wiki
 
 
 <!--
@@ -11,7 +11,7 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!customizing.md#Theme_chooser)
   -->
 
-[gimmick:theme](spacelab)
+[gimmick:theme](slate)
 
 
 <!--
@@ -20,7 +20,7 @@
   -->
 
 [About](pages/about.md)
-[Download](pages/component-directory.md)
+[Component Directory](pages/component-directory.md)
 
 <!-- A more complex navigation example: ----------------------------------------
 
