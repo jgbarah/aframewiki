@@ -5,7 +5,7 @@
 
 
 # A-Frame Wiki
-<img src="/en/pages/uploads/images/aframe-logo.png" style="height:20px;">
+<a href="https://aframe.wiki"><img src="/en/pages/uploads/images/aframe-logo.png" style="height:20px;"></a>
 
 
 <!--

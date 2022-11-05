@@ -17,7 +17,7 @@ You can see a quick example of AR on the web if you google Rottweiler on your ph
 </div>
 
 ## A-Frame Built-In
-A-Frame comes with AR support built in that works out-of-the-box with ARcore compatible devices. You can read about it [here](https://aframe.io/blog/webxr-ar-module/), and see a demo with A-Frame 1.0.0 [here](https://glitch.com/edit/#!/xr-spinosaurus).
+A-Frame comes with AR support built in that works out-of-the-box with ARcore compatible devices. You can read about it [here](https://aframe.io/blog/webxr-ar-module/), and see a demo with A-Frame 1.0.3+ [here](https://glitch.com/edit/#!/xr-spinosaurus).
 
 You can see an updated demo with 1.3.0+ that shows real time lighting [here](https://medium.com/samsung-internet-dev/use-new-augmented-reality-features-with-just-a-few-lines-of-code-with-webxr-and-aframe-c6f3f5789345)!
 
