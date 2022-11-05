@@ -9,7 +9,7 @@ If you've done that and want to also support this wiki's server and the aframe.w
 ## Pages
 You're probably looking for components. You can find them [Component Directory](/en/#!pages/component-directory.md).
 
-If you want to contribute, [make a pull request on Github]().
+If you want to contribute, [make a pull request on Github](https://github.com/c-frame/aframewiki).
 
 If you want other info, check out these pages:
 
