@@ -3,7 +3,9 @@
   -- Do NOT remove the leading `#` character.
   -->
 
+
 # A-Frame Wiki
+<img src="/en/pages/uploads/images/aframe-logo.png" style="height:20px;">
 
 
 <!--
@@ -19,7 +21,7 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
 
-[About](pages/about.md)
+<!-- [About](pages/about.md) -->
 [Component Directory](pages/component-directory.md)
 
 <!-- A more complex navigation example: ----------------------------------------
