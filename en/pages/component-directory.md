@@ -63,7 +63,7 @@ If you find something that isn't here add it! If you build something, add it! Ol
 | charts | Make 3d charts in A-Frame | [Repo](https://github.com/adrixp/aframe-charts-component) | [Examples](https://adrixp.github.io/aframe-charts-component/) | Unknown | 1.0.4 | [data-vis](/data-vis)https://aframe.wiki/en/data-vis) |
 | checkpoint | Target for checkpoint-controls. | [Repo](https://github.com/n5ro/aframe-extras/tree/master/src/misc) | None | Maintained | 1.4.0 | checkpoint-controls |
 | checkpoint-controls | Move to checkpoints created with the `checkpoint` component. | [Repo](https://github.com/n5ro/aframe-extras/tree/master/src/controls) | None | Maintained | 1.4.0 | checkpoint |
-| chromakey-material | A chromakey material for green screening in A-Frame. | [Repo](https://github.com/nikolaiwarner/aframe-chromakey-material) | None | Maintained	| 1.3.0 | checkpoint |
+| chromakey-material | A chromakey material for green screening in A-Frame. | [Repo](https://github.com/nikolaiwarner/aframe-chromakey-material) | None | Maintained	| 1.3.0 | |
 | console | console.log/warn/error in VR. Dynamic resizing, customizable. | [Repo](https://github.com/kylebakerio/a-console) | [example](https://canvas-log.glitch.me/) | Maintained	| 1.3.0 ||
 | crawling-cursor | An A-Frame component to move cursor along objects' surface. | [Repo](https://github.com/jujunjun110/aframe-crawling-cursor) | [Example](https://jujunjun110.github.io/aframe-crawling-cursor/basic/) | Unknown| 0.7 | |
 | cross-section | A-Frame Cross-Section Component. | [Repo](https://github.com/akbartus/AFrame-Cross-Section-Component) | [Example](https://cross-section-component.glitch.me/) | Unknown| 1.3.0 | |
