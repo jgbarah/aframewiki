@@ -6,6 +6,8 @@ This page is a stub, but these are some of the best projects in this space:
 # htmlmesh
 project link: https://github.com/AdaRoseCannon/aframe-htmlmesh
 
+Maintained. Confirmed working with A-Frame 1.4.0.
+
 This component doesn't support scrolling, dynamically resizing the div, text input, blur, focus, active, hover, image, svg, css animations, scaling the plane. It supports button, radio with accent color, input range, border-radius...
 It can be used to show normal html/css on desktop and rendered in 3d for VR only for example or rendered always in 3d even on desktop.
 It is highly performant, only renders to canvas when necessary.
@@ -18,6 +20,8 @@ PR are pending to be merged to have hover on button element (you need a css rule
 # htmlembed
 project link: https://github.com/supereggbert/aframe-htmlembed-component
 
+Not Maintained. Confirmed working with A-Frame 1.2.0. It works with A-Frame 1.3.0 and 1.4.0 if you replace `THREE.CanvasTexture` by `THREE.Texture` in `src/aframe-htmlembed-component.js`.
+
 The htmlembed component is serializing the html to a string, create a svg with a foreignObject containing the serialized html, convert the svg to an image then draw the image to the canvas.
 
 # websurfaces
@@ -28,7 +32,7 @@ Render an iframe with CSS3DRenderer. This doesn't work in VR.
 # Web2VR
 project link: https://github.com/kikoano/web2vr
 
-(confirmed working in A-Frame 1.3.0)
+Confirmed working with A-Frame 1.3.0.
 
 Note: this one is a bit non-standard in implementation, and has some quirks, but is very powerful and probably ideal for creating visually complex custom menus. Here's a glitch showing an attempt at using the project:
 https://web2vr-demo.glitch.me/
@@ -38,7 +42,7 @@ Here's an issue where the non-standard interface is discussed, and how working a
 # A-Frame Gui
 project link: https://github.com/rdub80/aframe-gui
 
-(Not currently updated for 1.3.0)
+Not currently updated for 1.3.0.
 
 This project is probably the most 'A-Frame' native style option, and is a great starting point. It does need some bug fixes, but the code is fairly easy to work with and pull requests should be straightforward. Features powerful font options with troika-text, as well as beveled edges, natively.
 
