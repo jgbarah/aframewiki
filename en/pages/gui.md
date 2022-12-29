@@ -3,6 +3,23 @@ Can't escape 2d interfaces even in a 3d world.
 
 This page is a stub, but these are some of the best projects in this space:
 
+# htmlmesh
+project link: https://github.com/AdaRoseCannon/aframe-htmlmesh
+
+This component doesn't support scrolling, dynamically resizing the div, text input, blur, focus, active, hover, image, svg, css animations, scaling the plane. It supports button, radio with accent color, input range, border-radius...
+It can be used to show normal html/css on desktop and rendered in 3d for VR only for example or rendered always in 3d even on desktop.
+It is highly performant, only renders to canvas when necessary.
+It's using a modified copy of the HTMLMesh.js file that is also in the three.js repository, so it will be probably maintained long term.
+HTMLMesh is using the canvas api to draw the elements.
+
+This component has less features than htmlembed currently.
+PR are pending to be merged to have hover on button element (you need a css rule with :hover and .hover), another PR for text wrapping, another one soon to be able to scale the plane.
+
+# htmlembed
+project link: https://github.com/supereggbert/aframe-htmlembed-component
+
+The htmlembed component is serializing the html to a string, create a svg with a foreignObject containing the serialized html, convert the svg to an image then draw the image to the canvas.
+
 # Web2VR
 project link: https://github.com/kikoano/web2vr
 
