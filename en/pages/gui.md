@@ -20,6 +20,11 @@ project link: https://github.com/supereggbert/aframe-htmlembed-component
 
 The htmlembed component is serializing the html to a string, create a svg with a foreignObject containing the serialized html, convert the svg to an image then draw the image to the canvas.
 
+# websurfaces
+project link: https://github.com/ryota-mitarai/aframe-websurfaces
+
+Render an iframe with CSS3DRenderer. This doesn't work in VR.
+
 # Web2VR
 project link: https://github.com/kikoano/web2vr
 
@@ -36,7 +41,6 @@ project link: https://github.com/rdub80/aframe-gui
 (Not currently updated for 1.3.0)
 
 This project is probably the most 'A-Frame' native style option, and is a great starting point. It does need some bug fixes, but the code is fairly easy to work with and pull requests should be straightforward. Features powerful font options with troika-text, as well as beveled edges, natively.
-
 
 # A-Frame Material Collection
 project link: https://github.com/the-expanse/aframe-material-collection
