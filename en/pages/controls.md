@@ -50,6 +50,6 @@ An extremely common way of interacting with content is using [laser controls](ht
 ### Grabbing Things
 If you're going to be grabbing things, stretching things, or throwing things, you'll probably want to look into the [Super Hands](https://github.com/wmurphyrd/aframe-super-hands-component) component. 
 
-A guide on making things able-to-be-grabbed in your app can be found [here](https://github.com/wmurphyrd/aframe-super-hands-component/issues/188).
+A guide on making things able-to-be-grabbed in your app can be found [here](https://github.com/c-frame/aframe-super-hands-component/issues/188).
 
 
