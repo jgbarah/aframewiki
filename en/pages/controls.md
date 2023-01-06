@@ -21,7 +21,7 @@ The standard has been [aframe-extras motion-controls component](https://github.c
 ### Thumbstick Rotation ("Snap Turning")
 Classically this is an 'advanced VR user' control scheme only--it's uncomfortable for most users and can induce nausea if you control the camera in some way other than head movement.
 
-That said, it's become common in 'advanced VR' apps to have 'snap turning'. Both aframe-extras movement-controls (gamepad-controls) and the [Blink Controls](https://jure.github.io/aframe-blink-controls/) component implements it. You could also implement it yourself by dissecting that library or by listening to [thumbstick events](https://aframe.io/docs/1.2.0/introduction/interactions-and-controllers.html#listening-for-button-and-axis-events). There's also [aframe-locomotion](https://github.com/mrxz/aframe-locomotion), which adds comfort features like vignette when moving.
+That said, it's become common in 'advanced VR' apps to have 'snap turning'. The aframe-extras movement-controls (gamepad-controls) doesn't implement it. The [Blink Controls](https://jure.github.io/aframe-blink-controls/) component implements it. You could also implement it yourself by dissecting that library or by listening to [thumbstick events](https://aframe.io/docs/1.2.0/introduction/interactions-and-controllers.html#listening-for-button-and-axis-events). There's also [aframe-locomotion](https://github.com/mrxz/aframe-locomotion), which adds comfort features like vignette when moving.
 
 ### Teleportation
 There may be more than one good teleportation library in A-Frame land, but as far as I know the most recently updated one is [Blink Controls](https://jure.github.io/aframe-blink-controls/).
