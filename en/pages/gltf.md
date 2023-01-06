@@ -51,6 +51,6 @@ They make your models look good.
 - learn the absolute basics in this [super short tutorial for total noobs](https://www.youtube.com/watch?v=sH4qi3oUEks)
 ## Animations
 - https://www.mixamo.com/#/
-- https://github.com/c-frame/aframe-extras
-- https://github.com/c-frame/aframe-extras/blob/master/src/loaders/animation-mixer.js
+- https://github.com/n5ro/aframe-extras
+- https://github.com/n5ro/aframe-extras/blob/master/src/loaders/animation-mixer.js
 Powered by Wiki.js
