@@ -1,13 +1,13 @@
 # Physics
 
-There are a few different options for physics in A-Frame.  This article isintended to help you to choose between them, and offers more info and usage examples for all the various options.
+There are a few different options for physics in A-Frame.  This article is intended to help you to choose between them, and offers more info and usage examples for all the various options.
 
 ## Picking an engine
 Which engine you pick will depend a lot on your specific requirements.  Currently there are 3 options for A-Frame physics that may be worth considering:
 
 - [a-frame-physics-system](https://github.com/c-frame/aframe-physics-system) with Cannon driver
 - [a-frame-physics-system](https://github.com/c-frame/aframe-physics-system) with Ammo driver
-- [physx](https://github.com/c-frame/physx) (which uses Nvidia physX as its driver).  Note that there is no current plan to integrate physX into aframe-physics-system, but it may be a better choice for some projects.
+- [physx](https://github.com/c-frame/physx) (which uses Nvidia PhysX as its driver).  Note that there is no current plan to integrate PhysX into aframe-physics-system, but it may be a better choice for some projects.
 
 Since each driver has a slightly different component interface and schema, it will require some significant updates to your code to switch from one driver to another, so it's worth taking some time up-front to consider which driver is most likely to suit your needs.
 
@@ -29,7 +29,7 @@ See [Driver-specific Limitations](#driver-specific-limitations) below for a list
 
 ## Driver-specific limitations
 
-This is a list of limitations that has been oberved with particular drivers (and also with physx).  It's intended to provide a checklist to help developers to choose between physics drivers for a particular project, so they don't pick a driver that turns out to be missing some feature that is fundamental for their application.
+This is a list of limitations that has been observed with particular drivers (and also with physx).  It's intended to provide a checklist to help developers to choose between physics drivers for a particular project, so they don't pick a driver that turns out to be missing some feature that is fundamental for their application.
 
 This list is probably incomplete, so if you find an additional significant limitation, please add it to this list.
 
@@ -50,7 +50,7 @@ This list is probably incomplete, so if you find an additional significant limit
 
   
 
-### phsyx
+### physx
 
 - Very few examples - a gap that needs filling!
 - Other limitations not known - suspect few limitations in the engine itself, but potentially many in terms of integration.
