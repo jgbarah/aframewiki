@@ -16,7 +16,7 @@ This 'just works' if you have a 6dof headset, but the user will be limited to th
 
 ### Thumbstick Motion ("Smooth Locomotion")
 This probably 'just works' with the built-in `wasd-controls` component, but I need to verify that.
-The standard has been [aframe-extras motion-controls component](https://github.com/n5ro/aframe-extras/tree/master/src/controls). A newer option is [aframe-locomotion](https://github.com/mrxz/aframe-locomotion).
+The standard has been [aframe-extras motion-controls component](https://github.com/c-frame/aframe-extras/tree/master/src/controls). A newer option is [aframe-locomotion](https://github.com/mrxz/aframe-locomotion).
 
 ### Thumbstick Rotation ("Snap Turning")
 Classically this is an 'advanced VR user' control scheme only--it's uncomfortable for most users and can induce nausea if you control the camera in some way other than head movement.
@@ -27,7 +27,7 @@ That said, it's become common in 'advanced VR' apps to have 'snap turning'. The 
 There may be more than one good teleportation library in A-Frame land, but as far as I know the most recently updated one is [Blink Controls](https://jure.github.io/aframe-blink-controls/).
 
 ### Flying
-This can be implemented via the thumbstick with [aframe-extras motion-controls component](https://github.com/n5ro/aframe-extras/tree/master/src/controls). Manipulating the guide stick of a glider is done in [Elfland Glider]() ([example](https://dougreeder.github.io/elfland-glider/city/))
+This can be implemented via the thumbstick with [aframe-extras motion-controls component](https://github.com/c-frame/aframe-extras/tree/master/src/controls). Manipulating the guide stick of a glider is done in [Elfland Glider]() ([example](https://dougreeder.github.io/elfland-glider/city/))
 
 ### Climbing
 I don't know of anyone who has implemented this in A-Frame yet.
