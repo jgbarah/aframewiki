@@ -1,6 +1,6 @@
 # Welcome to the A-Frame Wiki
 
-This is the modern home of the successor to the discontinued A-Frame Registry, the [Component Directory](https://aframe.wiki/component-directory).
+This is the modern home of the successor to the discontinued A-Frame Registry, the [Component Directory](https://aframe.wiki/en/#!pages/component-directory.md).
 
 Support A-Frame by <a href="https://github.com/sponsors/dmarcos">becoming a contributor on github</a>, or <a href="https://cottonbureau.com/products/a-frame-og#/9479538/tee-men-standard-tee-vintage-black-tri-blend-s">buying a shirt</a>, or by [Sponsoring the maintainers on Github](https://github.com/sponsors/dmarcos).
 If you've done that and want to also support this wiki's server and the aframe.wiki domain cost by donating a coffee, you can do that here:<br>
