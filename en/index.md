@@ -33,5 +33,6 @@ If you want other info, check out these pages:
 | [Monetizations](pages/monetizations.md)                           | Making money with a webXR site |
 | [Performance](pages/performance.md)                           | How fast is A-Frame, and how can we make it as fast as possible? |
 | [Physics](pages/physics.md)                           | Discussion on the options available for adding real time physics to your scene |
+| [Postprocessing](pages/postprocessing.md)         | State of postprocessing effects in A-Frame and examples |
 | [PWA](pages/pwa.md)                           | Making your WebXR app and Progressive Web App|
 | [THREE.js](pages/three.md)                           | Resources on working with THREE.js, which powers A-Frame under the hood |
