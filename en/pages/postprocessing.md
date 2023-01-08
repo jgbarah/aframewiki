@@ -10,6 +10,6 @@ Hubs integrated (October 2022) in their [scene renderer](https://github.com/mozi
 but they don't use the A-Frame renderer anymore, so finding a good API for A-Frame from the discussion above is still needed.
 Some tweets about the bloom effect in Hubs:
 
-- https://twitter.com/MozillaHubs/status/1588516422568869894
+- https://twitter.com/MozillaHubs/status/1572571349796765697 and the stream [Hubs Dev Stream: Post Processing in Hubs](https://www.youtube.com/watch?v=1-ca5qKivpY)
 - https://twitter.com/MozillaHubs/status/1587429257453735937
-- https://twitter.com/MozillaHubs/status/1572571349796765697
+- https://twitter.com/MozillaHubs/status/1588516422568869894
