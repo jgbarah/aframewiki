@@ -6,7 +6,7 @@
 * [controller log data](https://stemkoski.github.io/A-Frame-Examples/quest-controllers.html)
 * [log-all-events](https://github.com/kylebakerio/log-all-events/)
 * [debug-cursor](https://github.com/supermedium/superframe/tree/master/components/debug-cursor/)
-* [desktop-vr-controller](https://diarmidmackenzie.github.io/aframe-examples/docs/desktop-vr-controller.html)
+* [desktop-vr-controller](https://diarmidmackenzie.github.io/aframe-components/docs/desktop-vr-controller.html)
 
 ## debugging tools
 * [aframe-inspector](https://github.com/aframevr/aframe-inspector)
