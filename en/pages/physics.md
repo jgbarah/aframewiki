@@ -25,7 +25,7 @@ For each of these drivers, there is the potential for specific limitations that 
 - in the version of the physics engine being used (which may not be the latest version)
 - or, in the integration of the phsyics engine with aframe-physics-system (or physx).
 
-See [Driver-specific Limitations](#driver-specific-limitations) below for a list of known driver-specific limitations.
+See "Driver-specific limitations" below for a list of known driver-specific limitations.
 
 ## Driver-specific limitations
 
