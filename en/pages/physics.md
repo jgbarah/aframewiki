@@ -65,8 +65,8 @@ This list is probably incomplete, so if you find an additional significant limit
 [cannon](https://github.com/pmndrs/cannon-es) is a physics library built natively in javascript that is considered the easiest to implement and the most well documented.
 
 
-- [Here's an article](https://medium.com/samsung-internet-dev/game-physics-on-the-web-in-aframe-628fbf7c32a3) by [Ada](https://twitter.com/adarosecannon?lang=en) and a small demo project describing and showing how ammo can be used with aframe-physics-system.
-- [Using Ammo with aframe-physics-system](https://github.com/n5ro/aframe-physics-system/AmmoDriver.md)
+- [Here's an article](https://medium.com/samsung-internet-dev/game-physics-on-the-web-in-aframe-628fbf7c32a3) by [Ada](https://twitter.com/adarosecannon) and a small demo project describing and showing how ammo can be used with aframe-physics-system.
+- [Using Ammo with aframe-physics-system](https://github.com/c-frame/aframe-physics-system/blob/master/AmmoDriver.md)
 
 ### Examples that use aframe-physics-system:
 
@@ -102,6 +102,8 @@ There is a basic physics implementation that can be seen working with 1.3.0 [her
 
 
 ## Physics in 1.2.0
+Note: We have now working versions of cannon and ammo starting in A-Frame 1.4.1 with [c-frame/aframe-physics-system](https://github.com/c-frame/aframe-physics-system).
+
 Physics has been heavily affected in A-Frame 1.2.0 with the THREE Geometry deprecation which broke a number of packages. [There is an unofficial fork that seems to be working well with 1.2.0 here](https://github.com/gearcoded/aframe-physics-system/blob/master/dist/aframe-physics-system.js). ([source](https://github.com/n5ro/aframe-physics-system/issues/187#issuecomment-792048570)).
 
 aframe-physics system in the past relied on **cannon** instead of **ammo**.
