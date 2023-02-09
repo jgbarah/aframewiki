@@ -6,10 +6,12 @@ Todo: add some resources and some quick overviews to help with mental model of T
 
 A great way to get started is to take THREE examples and try to replicate them in A-Frame.
 
-One example: make an improvement on the A-Frame line component that can take more than two points, so that you can reduce draw calls.
+One example: The built-in A-Frame line component only draws one line (two points).
+THREE allows multi-segment lines (more than two points).
+This reduces draw calls, and so is more efficient.
 
 - [Raw THREE demo](https://jsfiddle.net/t4m85pLr/1/)
-- [As an A-Frame component]() // todo, add link here
+- [As an A-Frame component](https://github.com/DougReeder/aframe-lines)
 
 Another example:
 

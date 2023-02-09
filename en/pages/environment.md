@@ -37,4 +37,4 @@ Works for pre A-Frame 1.2.0. To get the same effect > 1.2.0, see the example of 
 ### aframe-shader-buildings
 [source](https://github.com/DougReeder/aframe-shader-buildings)
 Add a city's worth full of low-poly buildings, cheap!
-Needs to be updated to use bufferGeometry as of this writing, see [issue 10](https://github.com/DougReeder/aframe-shader-buildings/issues/10)
+Now supports textures, and updated for compatibility with A-Frame 1.4.0.
