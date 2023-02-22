@@ -25,6 +25,7 @@
 
 <!-- [About](pages/about.md) -->
 [Component Directory](pages/component-directory.md)
+[Edit This Wiki On Github](https://github.com/c-frame/aframewiki/)
 
 <!-- A more complex navigation example: ----------------------------------------
 
