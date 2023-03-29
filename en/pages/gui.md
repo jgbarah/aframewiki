@@ -47,9 +47,7 @@ https://web2vr-demo.glitch.me/
 Here's an issue where the non-standard interface is discussed, and how working around that is proposed: https://github.com/kikoano/web2vr/issues/18
 
 # A-Frame Gui
-project link: https://github.com/rdub80/aframe-gui
-
-Not currently updated for 1.3.0.
+project link: https://github.com/c-frame/aframe-gui
 
 This project is probably the most 'A-Frame' native style option, and is a great starting point. It does need some bug fixes, but the code is fairly easy to work with and pull requests should be straightforward. Features powerful font options with troika-text, as well as beveled edges, natively.
 
