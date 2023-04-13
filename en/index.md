@@ -36,3 +36,4 @@ If you want other info, check out these pages:
 | [Postprocessing](pages/postprocessing.md)         | State of postprocessing effects in A-Frame and examples |
 | [PWA](pages/pwa.md)                           | Making your WebXR app and Progressive Web App|
 | [THREE.js](pages/three.md)                           | Resources on working with THREE.js, which powers A-Frame under the hood |
+| [Use SolidJS with aframe](pages/solidjs.md)          | How to render an aframe a-scene via a SolidJS component. |
