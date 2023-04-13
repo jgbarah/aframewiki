@@ -8,7 +8,7 @@ You can render your scene with a SolidJS component. The only gotcha is to use `a
 
 In the root of your app, render scene like that:
 
-```
+```js
 <Scene scene={scene()} />
 ```
 
@@ -35,3 +35,22 @@ const Scene: Component<Props> = (props) => {
 
 I'm still using webpack with SolidJS, no ssr.
 I'm trying to convert my project to SolidStart so to vite, but I struggle to import dynamically my scripts and add template tags for naf. (2023-04-13)
+
+I'm also patching `node_modules/solid-js/types/jsx.d.ts`
+to add aframe primitives in the existing `IntrinsicElements` interface like this:
+
+```
+  interface IntrinsicElements {
+    "a-scene": any;
+    "a-entity": any;
+    "a-assets": any;
+    "a-asset-item": any;
+    "a-mixin": any;
+    "a-sphere": any;
+    "a-torus": any;
+    "a-gltf-model": any;
+    "a-light": any;
+    a: AnchorHTMLAttributes<HTMLAnchorElement>;
+```
+
+That's not great for sure. When I tried to add that in a new d.ts file in my project I didn't manage to make it work (with solid-js 1.6.2).
