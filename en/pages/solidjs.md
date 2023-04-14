@@ -38,24 +38,43 @@ const Scene: Component<Props> = (props) => {
 I'm still using webpack with SolidJS, no ssr.
 I'm trying to convert my project to SolidStart so to vite, but I struggle to import dynamically my scripts and add template tags for naf. (2023-04-13)
 
-I'm also patching `node_modules/solid-js/types/jsx.d.ts`
-to add aframe primitives in the existing `IntrinsicElements` interface like this:
+## Typescript types for aframe
+
+To avoid having errors in vscode, you can add an `aframe.d.ts` file in your project with the following content:
 
 ```js
-  interface IntrinsicElements {
-    "a-scene": any;
-    "a-entity": any;
-    "a-assets": any;
-    "a-asset-item": any;
-    "a-mixin": any;
-    "a-sphere": any;
-    "a-torus": any;
-    "a-gltf-model": any;
-    "a-light": any;
-    a: AnchorHTMLAttributes<HTMLAnchorElement>;
+declare global {
+  declare module "solid-js" {
+    namespace JSX {
+      interface IntrinsicElements {
+        "a-scene": any;
+        "a-entity": any;
+        "a-assets": any;
+        "a-asset-item": any;
+        "a-mixin": any;
+        "a-sphere": any;
+        "a-torus": any;
+        "a-gltf-model": any;
+        "a-light": any;
+      }
+    }
+  }
+}
 ```
 
-That's not great for sure. When I tried to add that in a new d.ts file in my project I didn't manage to make it work (with solid-js 1.6.2).
+You can also install `@types/aframe` to have some types:
+
+```
+npm install -D @types/aframe
+```
+
+Example:
+
+```js
+import type { AEntity } from "aframe";
+const cameraRig = document.getElementById("cameraRig")! as typeof AEntity;
+cameraRig.setAttribute("movement-controls", "enabled", false);
+```
 
 ## Click on button with aframe-htmlmesh
 
