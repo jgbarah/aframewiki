@@ -49,13 +49,12 @@ It's super-easy to [throw together a multi-user experience](https://github.com/N
 | code maturity              | immature                 | mature for core and janus adapter | mature                                   |
 | synced attributes          | all                      | by schema                       | by schema                                  |
 | object mutation & deletion | anyone                   | owner                           | owner                                      |
-| private sessions           | automatic                | need to implement this yourself, add auth to the easyrtc server and JWT for janus | automatic                                  |
+| private sessions           | automatic                | manual, add auth to the easyrtc server and JWT for janus | automatic                                  |
 | voice chat                 | no                       | yes                             | yes                                        | 
 | user avatar selection      | no                       | no                              | yes                                        |
 | custom network messages    | yes                      | yes                             | yes                                        |
-| state snapshots            | yes                      | no                              | no? you can pin objects to keep them       |
+| state preserved w/o users  | yes                      | no                              | no, but you can pin objects to keep them   |
 | synced random seeds        | yes                      | no                              | no?                                        |
 | example                    | https://xalot.surge.sh/  | https://naf-examples.glitch.me/ | https://hubs.mozilla.com/Pvg5MMt/hubs-demo |
 
-* state snapshots: world state preserved even with no users online
 * synced random seeds: these are commonly used to procedurally generate the same world on each client.
