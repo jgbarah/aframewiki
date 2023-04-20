@@ -3,7 +3,7 @@
 ## Origin
 This is the modern, community-maintained alternative to the out-of-date A-Frame Registry.
 
-The historical standard has been to publish and search for component on A-Frame. This adds some overhead, though, and only searching on NPM can mean missing a lot of possible projects. A-Frame doesn't require a complex build process, either, so installing with NPM may not always be the best fit--the community can get a speed boost to our pages by all using the same cached CDNs, actually.
+The historical standard has been to publish and search for component on NPM. This adds some overhead, though, and only searching on NPM can mean missing a lot of possible projects. A-Frame doesn't require a complex build process, either, so installing with NPM may not always be the best fit--the community can get a speed boost to our pages by all using the same cached CDNs, actually.
 
 The focus here is not on the original author's repo, but on the most up-to-date fork available of a repo. If two forks are both viable with unique features, they can both be listed separately.
 
