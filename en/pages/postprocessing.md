@@ -4,6 +4,8 @@ As of version 1.4.1 (January 2023), A-Frame doesn't natively support three.js po
 Here's an [example](https://glitch.com/edit/#!/anaglyph-postprocessing?path=index.html) showing the anaglyph postprocessing effect that Diarmid did a little while ago.
 Similar techniques will probably work for other postprocessing effects.
 
+[aframe-effects](https://github.com/wizgrav/aframe-effects) is also available (and seeking a maintainer);
+
 See also [this discussion started in June 2018](https://github.com/aframevr/aframe/pull/3645) about introducing a postprocessing API in A-Frame.
 
 Hubs integrated (October 2022) in their [scene renderer](https://github.com/mozilla/hubs/pull/5742) the [postprocessing library](https://www.npmjs.com/package/postprocessing)
