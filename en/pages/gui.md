@@ -34,12 +34,8 @@ It supports:
 - canvas if you have a graph or something, but it will take all the space
 - supported css properties (not exhaustive): accent-color, color, background-color, border, border-radius
 
-Although HTMLMesh.js includes a html2canvas function, this is a different
-function than the [html2canvas](https://www.npmjs.com/package/html2canvas)
-package. The html2canvas function in HTMLMesh.js is sycnhronous and optimized
-to render in a frame on the same canvas.
-It supports less features than the html2canvas package that has an asynchronous
-Promise based API.
+Although HTMLMesh.js includes a html2canvas function, this is a different function than the [html2canvas](https://www.npmjs.com/package/html2canvas) package. The html2canvas function in HTMLMesh.js is sycnhronous and optimized to render in a frame on the same canvas.
+It supports less features than the html2canvas package that has an asynchronous Promise based API.
 
 # htmlembed
 project link: https://github.com/supereggbert/aframe-htmlembed-component
