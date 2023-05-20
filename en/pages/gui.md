@@ -10,7 +10,7 @@ Maintained. Confirmed working with A-Frame 1.4.0.
 
 HTMLMesh is using the canvas API to draw the elements. It is highly performant, only renders to canvas when necessary.
 It can be used to show a 2d UI on the page with standard html/css and UI on a plane in the 3d scene, for example on the wrist in VR.
-If you want to hide the 2d UI on the page, don't use `display:none` but `absolute:position;left:-9999px` otherwise it will render nothing in VR.
+If you want to hide the 2d UI on the page, don't use `display:none` but `position:absolute;left:-9999px` otherwise it will render nothing in VR.
 It's using a [modified copy](https://github.com/AdaRoseCannon/aframe-htmlmesh/blob/main/src/HTMLMesh.js) of the [HTMLMesh.js file that is also in the three.js repository](https://github.com/mrdoob/three.js/blob/dev/examples/jsm/interactive/HTMLMesh.js), so it will be probably maintained long term.
 
 This component doesn't support:
@@ -31,8 +31,7 @@ It supports:
 - button (If you're generating the html with solid and maybe react, see [this issue](https://aframe.wiki/en/#!pages/solidjs.md#Click_on_button_with_aframe-htmlmesh) about the click event.)
 - radio and checkbox
 - range input
-- canvas if you have a graph or something, but it will be rendered at position
-  (0, 0) thus overriding any other elements rendered before it
+- canvas if you have a graph or something, but it will be rendered at position (0, 0) thus overriding any other elements rendered before it
 - supported css properties (not exhaustive): accent-color, color, background-color, border, border-radius
 
 Although HTMLMesh.js includes a html2canvas function, this is a different function than the [html2canvas](https://www.npmjs.com/package/html2canvas) package. The html2canvas function in HTMLMesh.js is synchronous and optimized to render in a frame on the same canvas.
