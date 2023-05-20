@@ -9,17 +9,17 @@ project link: https://github.com/AdaRoseCannon/aframe-htmlmesh
 Maintained. Confirmed working with A-Frame 1.4.0.
 
 This component doesn't support:
+
 - scrolling
 - dynamically resizing the div ([draft PR](https://github.com/AdaRoseCannon/aframe-htmlmesh/pull/14))
 - text input
 - blur, focus, active, hover ([draft PR for hover on buttons](https://github.com/AdaRoseCannon/aframe-htmlmesh/pull/9), you need a css rule with `button:hover,button.hover`),
 - svg
 - css animations
-- scaling the plane. You can change the scaling value in the code
-  [here](https://github.com/AdaRoseCannon/aframe-htmlmesh/blob/cd491eae3d33b442f80eadfb5dd1c8f48dd684f3/src/HTMLMesh.js#L21)
-  but it would be better if this was configurable.
+- scaling the plane. You can change the scaling value in the code [here](https://github.com/AdaRoseCannon/aframe-htmlmesh/blob/cd491eae3d33b442f80eadfb5dd1c8f48dd684f3/src/HTMLMesh.js#L21) but it would be better if this was configurable.
 
 It supports:
+
 - text
 - images ([without border/padding on them](https://github.com/mrdoob/three.js/pull/25925#issuecomment-1523743648), but you can use border/padding on the parent element)
 - button (If you're generating the html with solid and maybe react, see [this issue](https://aframe.wiki/en/#!pages/solidjs.md#Click_on_button_with_aframe-htmlmesh) about the click event.)
