@@ -12,19 +12,23 @@ This component doesn't support:
 - scrolling
 - dynamically resizing the div ([draft PR](https://github.com/AdaRoseCannon/aframe-htmlmesh/pull/14))
 - text input
-- blur, focus, active, hover ([draft PR for hover on buttons](https://github.com/AdaRoseCannon/aframe-htmlmesh/pull/9), you need a css rule with :hover and .hover),
+- blur, focus, active, hover ([draft PR for hover on buttons](https://github.com/AdaRoseCannon/aframe-htmlmesh/pull/9), you need a css rule with `button:hover,button.hover`),
 - svg
 - css animations
-- scaling the plane
+- scaling the plane. You can change the scaling value in the code
+  [here](https://github.com/AdaRoseCannon/aframe-htmlmesh/blob/cd491eae3d33b442f80eadfb5dd1c8f48dd684f3/src/HTMLMesh.js#L21)
+  but it would be better if this was configurable.
 
 It supports:
-- images (but [without border/padding on them](https://github.com/mrdoob/three.js/pull/25925#issuecomment-1523743648), but you can use border/padding on the parent element)
-- button
-- radio
-- range input,
-- accent color, border-radius
+- text
+- images ([without border/padding on them](https://github.com/mrdoob/three.js/pull/25925#issuecomment-1523743648), but you can use border/padding on the parent element)
+- button (If you're generating the html with solid and maybe react, see [this issue](https://aframe.wiki/en/#!pages/solidjs.md#Click_on_button_with_aframe-htmlmesh) about the click event.)
+- radio and checkbox
+- range input
+- canvas if you have a graph or something, but it will take all the space
+- css supported: accent-color, color, background-color, border, border-radius
 
-It can be used to show normal html/css on desktop and rendered in 3d for VR only for example or rendered always in 3d even on desktop.
+It can be used to show normal html/css on desktop and rendered in 3d for VR only for example or rendered always in 3d even on desktop. If you want to hide it on desktop, don't use `display:none` but `absolute:position;left:-9999px` otherwise it will render nothing in VR)
 It is highly performant, only renders to canvas when necessary.
 It's using a [modified copy](https://github.com/AdaRoseCannon/aframe-htmlmesh/blob/main/src/HTMLMesh.js) of the [HTMLMesh.js file that is also in the three.js repository](https://github.com/mrdoob/three.js/blob/dev/examples/jsm/interactive/HTMLMesh.js), so it will be probably maintained long term.
 HTMLMesh is using the canvas API to draw the elements.
