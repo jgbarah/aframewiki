@@ -8,6 +8,11 @@ project link: https://github.com/AdaRoseCannon/aframe-htmlmesh
 
 Maintained. Confirmed working with A-Frame 1.4.0.
 
+HTMLMesh is using the canvas API to draw the elements. It is highly performant, only renders to canvas when necessary.
+It can be used to show a 2d UI on the page with standard html/css and UI on a plane in the 3d scene, for example on the wrist in VR.
+If you want to hide the 2d UI on the page, don't use `display:none` but `absolute:position;left:-9999px` otherwise it will render nothing in VR.
+It's using a [modified copy](https://github.com/AdaRoseCannon/aframe-htmlmesh/blob/main/src/HTMLMesh.js) of the [HTMLMesh.js file that is also in the three.js repository](https://github.com/mrdoob/three.js/blob/dev/examples/jsm/interactive/HTMLMesh.js), so it will be probably maintained long term.
+
 This component doesn't support:
 
 - scrolling
@@ -27,11 +32,6 @@ It supports:
 - range input
 - canvas if you have a graph or something, but it will take all the space
 - css supported: accent-color, color, background-color, border, border-radius
-
-It can be used to show normal html/css on desktop and rendered in 3d for VR only for example or rendered always in 3d even on desktop. If you want to hide it on desktop, don't use `display:none` but `absolute:position;left:-9999px` otherwise it will render nothing in VR)
-It is highly performant, only renders to canvas when necessary.
-It's using a [modified copy](https://github.com/AdaRoseCannon/aframe-htmlmesh/blob/main/src/HTMLMesh.js) of the [HTMLMesh.js file that is also in the three.js repository](https://github.com/mrdoob/three.js/blob/dev/examples/jsm/interactive/HTMLMesh.js), so it will be probably maintained long term.
-HTMLMesh is using the canvas API to draw the elements.
 
 # htmlembed
 project link: https://github.com/supereggbert/aframe-htmlembed-component
