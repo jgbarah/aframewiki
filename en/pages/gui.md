@@ -8,14 +8,26 @@ project link: https://github.com/AdaRoseCannon/aframe-htmlmesh
 
 Maintained. Confirmed working with A-Frame 1.4.0.
 
-This component doesn't support scrolling, dynamically resizing the div, text input, blur, focus, active, hover, image, svg, css animations, scaling the plane. It supports button, radio with accent color, input range, border-radius...
+This component doesn't support:
+- scrolling
+- dynamically resizing the div ([draft PR](https://github.com/AdaRoseCannon/aframe-htmlmesh/pull/14))
+- text input
+- blur, focus, active, hover ([draft PR for hover on buttons](https://github.com/AdaRoseCannon/aframe-htmlmesh/pull/9), you need a css rule with :hover and .hover),
+- svg
+- css animations
+- scaling the plane
+
+It supports:
+- images (but [without border/padding on them](https://github.com/mrdoob/three.js/pull/25925#issuecomment-1523743648), but you can use border/padding on the parent element)
+- button
+- radio
+- range input,
+- accent color, border-radius
+
 It can be used to show normal html/css on desktop and rendered in 3d for VR only for example or rendered always in 3d even on desktop.
 It is highly performant, only renders to canvas when necessary.
-It's using a modified copy of the HTMLMesh.js file that is also in the three.js repository, so it will be probably maintained long term.
-HTMLMesh is using the canvas api to draw the elements.
-
-This component has less features than htmlembed currently.
-PR are pending to be merged to have hover on button element (you need a css rule with :hover and .hover), another PR for text wrapping, another one soon to be able to scale the plane.
+It's using a [modified copy](https://github.com/AdaRoseCannon/aframe-htmlmesh/blob/main/src/HTMLMesh.js) of the [HTMLMesh.js file that is also in the three.js repository](https://github.com/mrdoob/three.js/blob/dev/examples/jsm/interactive/HTMLMesh.js), so it will be probably maintained long term.
+HTMLMesh is using the canvas API to draw the elements.
 
 # htmlembed
 project link: https://github.com/supereggbert/aframe-htmlembed-component
