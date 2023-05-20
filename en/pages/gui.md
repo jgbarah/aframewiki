@@ -31,10 +31,11 @@ It supports:
 - button (If you're generating the html with solid and maybe react, see [this issue](https://aframe.wiki/en/#!pages/solidjs.md#Click_on_button_with_aframe-htmlmesh) about the click event.)
 - radio and checkbox
 - range input
-- canvas if you have a graph or something, but it will take all the space
+- canvas if you have a graph or something, but it will be rendered at position
+  (0, 0) thus overriding any other elements rendered before it
 - supported css properties (not exhaustive): accent-color, color, background-color, border, border-radius
 
-Although HTMLMesh.js includes a html2canvas function, this is a different function than the [html2canvas](https://www.npmjs.com/package/html2canvas) package. The html2canvas function in HTMLMesh.js is sycnhronous and optimized to render in a frame on the same canvas.
+Although HTMLMesh.js includes a html2canvas function, this is a different function than the [html2canvas](https://www.npmjs.com/package/html2canvas) package. The html2canvas function in HTMLMesh.js is synchronous and optimized to render in a frame on the same canvas.
 It supports less features than the html2canvas package that has an asynchronous Promise based API.
 
 # htmlembed
