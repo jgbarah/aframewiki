@@ -119,6 +119,7 @@ It's common for people to build collections and then for them to sit unmaintaine
 ### Other User Projects
 
 Add your own project here, in the table below:
+
 | Author | Project | Blurb |
 | ----------- | ----------- | ----------- |
 | [Name](http://kylebaker.io) | [Project Title](https://aframe.wiki/e/en/cool-projects) | Just a short one-liner, please |
