@@ -45,7 +45,7 @@ Ever opened your quest and wondered where those suggest webxr projects come from
 
 ### Experiments from [Akbartus](https://github.com/akbartus)
 
-- [GTLF Manipulator](https://github.com/akbartus/A-Frame-Component-GLTF-Manipulator), [Akbar S.](https://github.com/akbartus)
+- [GTLF Manipulator](https://github.com/akbartus/A-Frame-Component-GLTF-Manipulator)
   Component which allows to edit individual nodes of a file, including replace texture, add color, move parts, etc. There are many creative projects which make use of GLTF editing in the runtime, including change of texture of 3D models to show various designs/create coloring pages.
 - [Volumetric Video](https://github.com/akbartus/A-Frame-Volumetric-Video-Component)
   Volumetric videos in A-Frame. It is based on [Volograms](https://twitter.com/volograms). The creation of the component was inspired from similar works of Remy Mellet [Volograms.js](https://github.com/remmel/volograms-js), [A-Frame Volograms](https://github.com/remmel/aframe-volograms) and Volograms' playback library [vol_libs](https://github.com/Volograms/vol_libs).
