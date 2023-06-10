@@ -14,7 +14,7 @@
 * [cannon debugger](https://github.com/pmndrs/cannon-es-debugger)
 
 ### Emulating different VR devices in your browser
-For Quest 2, the latest option is [The WebXR Quest Emulator](https://github.com/felixtrz/WebXRQuestEmulator).
+For Quest 2, the latest option is [The WebXR Quest Emulator](https://github.com/meta-quest/immersive-web-emulator).
 
 For more broad usage, the [WebXR Emulator Extension](https://chrome.google.com/webstore/detail/webxr-api-emulator/mjddjgeghkdijejnciaefnkjmkafnnje?hl=en) is a great resource, but as of this writing the canonical version in the store is fairly out of date. However, you can get a modern version with recent models supported by locally installing the version from [this pull request](https://github.com/MozillaReality/WebXR-emulator-extension/pull/278).
 *@vincentfretin on slack:*
