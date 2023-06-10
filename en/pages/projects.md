@@ -43,7 +43,7 @@ Ever opened your quest and wondered where those suggest webxr projects come from
 - [Fun Bit 64](https://funbit64.com/), [Michael McAnally](http://michaelmcanally.info/)
   Open VR Server using NAF -showcasing Art Gallery, Treasure Island, VR Office and WebXR Blog with tutorial articles
 
-### Experiments from [Akbartus](https://github.com/akbartus)
+### Experiments from Akbartus
 
 - [GTLF Manipulator](https://github.com/akbartus/A-Frame-Component-GLTF-Manipulator)
   Component which allows to edit individual nodes of a file, including replace texture, add color, move parts, etc. There are many creative projects which make use of GLTF editing in the runtime, including change of texture of 3D models to show various designs/create coloring pages.
