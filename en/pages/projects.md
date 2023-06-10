@@ -39,6 +39,15 @@ Ever opened your quest and wondered where those suggest webxr projects come from
 - [Barrier Mage](https://dougreeder.github.io/barrier-mage/) [Requires headset and two 6-DOF controllers]
   Draw mystic symbols to burn, protect, or detect & drive off fantastic creatures!
 
+### Other User Projects
+
+- [Barrier Mage](https://dougreeder.github.io/barrier-mage/), [Doug Reeder](https://github.com/DougReeder)
+  Discover and use wand gestures to perform magic
+- [Fun Bit 64](https://funbit64.com/), [Michael McAnally](http://michaelmcanally.info/)
+  Open VR Server using NAF -showcasing Art Gallery, Treasure Island, VR Office and WebXR Blog with tutorial articles
+- [Poker](https://danb.io/pokxr/), [Dan B](http://danb.io)
+  Live multiplayer poker, with live video for faces
+
 ## General WebXR
 
 ### SideQuest WebXR Directory:
@@ -115,15 +124,3 @@ It's common for people to build collections and then for them to sit unmaintaine
   A seemingly out of date collection of WebVR content, haven't checked it closely
 - [XRCA.DE](http://XRca.de)
   A small curated collection, but does include the out-of-date A-Painter, so not sure about the rest
-
-### Other User Projects
-
-Add your own project here, in the table below:
-
-| Author | Project | Blurb |
-| ----------- | ----------- | ----------- |
-| [Name](http://kylebaker.io) | [Project Title](https://aframe.wiki/e/en/cool-projects) | Just a short one-liner, please |
-| [Supermedium](https://www.supermedium.com/) | [Moon Rider](https://moonrider.xyz/) | The quintessential WebXR demo |
-| [Doug Reeder](https://github.com/DougReeder) | [Barrier Mage](https://dougreeder.github.io/barrier-mage/) | Discover and use wand gestures to perform magic |
-| [Michael McAnally](http://michaelmcanally.info/) | [Fun Bit 64](https://funbit64.com/) | Open VR Server using NAF -showcasing Art Gallery, Treasure Island, VR Office and WebXR Blog with tutorial articles |
-| [Dan B](http://danb.io) | [Poker](https://danb.io/pokxr/) | Live multiplayer poker, with live video for faces |
