@@ -27,6 +27,35 @@ For more broad usage, the [WebXR Emulator Extension](https://chrome.google.com/w
 > in chrome, in extensions, click on the "load non packaged extension" button and select the WebXR-emulator-extension folder
 > 
 
+## Opening an url on your headset
+
+### hmd.link
+
+For all headsets, you can copy and paste an url on [hmd.link](https://hmd.link), then on the headset access hmd.link and click.
+
+### Meta Quest Web Launch
+
+For Meta headsets, see [Meta Quest: Use Web Launch to Send Links to Headsets from the Web](https://developer.oculus.com/documentation/web/web-launch/)
+
+You can create a bookmarklet in your browser to open on Quest:
+
+```js
+javascript:(function()%7Blet sendToQuestUrl=new URL("https://oculus.com/open_url/");sendToQuestUrl.searchParams.set("url",window.location),window.location.href=sendToQuestUrl;%7D());
+```
+
+For this create a bookmark and modify the URL field with the code above.
+
+### With adb during development
+
+If you use adb during development, you can create a npm script to open your
+project like this in `package.json`:
+
+```json
+"open-quest": "C:\\Tools\\Android\\platform-tools\\adb.exe shell am start -a android.intent.action.VIEW -d 'http://localhost:8080'"
+```
+
+and run `npm run open-quest` to open the url on your Quest.
+
 ## HTTPS
 WebXR can only run over HTTPS.
 It's super -easy to run a local HTTP server using node.js (http-server) or python (python -m http.server), but not quite so easy to set up an HTTPS server.
