@@ -25,4 +25,3 @@ Another way to contribute is to convert existing THREE.js projects into A-Frame 
 - [unreal bloom](https://threejs.org/examples/webgl_postprocessing_unreal_bloom.html)
 - [surface sampling](https://tympanus.net/codrops/2021/08/31/surface-sampling-in-three-js/)
 - [parallax height map?](https://techbrood.com/threejs/examples/webgl_materials_parallaxmap.html)
-Powered by Wiki.js
