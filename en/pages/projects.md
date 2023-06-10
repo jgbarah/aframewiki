@@ -34,19 +34,25 @@ Ever opened your quest and wondered where those suggest webxr projects come from
   Play a piano with hand tracking!
 - [Papyrus Please](https://js13kgames.com/games/papyrus-please/index.html)
   A variation on "Papers Please"
-- [Elfland Glider](https://dougreeder.github.io/elfland-glider/)
+- [Elfland Glider](https://dougreeder.github.io/elfland-glider/), [Doug Reeder](https://github.com/DougReeder)
   Fly through fantastic worlds, help the merry and mischievous light elves, and avoid the surly and mischievous dark elves.
-- [Barrier Mage](https://dougreeder.github.io/barrier-mage/) [Requires headset and two 6-DOF controllers]
+- [Barrier Mage](https://dougreeder.github.io/barrier-mage/), [Doug Reeder](https://github.com/DougReeder) [Requires headset and two 6-DOF controllers]
   Draw mystic symbols to burn, protect, or detect & drive off fantastic creatures!
-
-### Other User Projects
-
-- [Barrier Mage](https://dougreeder.github.io/barrier-mage/), [Doug Reeder](https://github.com/DougReeder)
-  Discover and use wand gestures to perform magic
-- [Fun Bit 64](https://funbit64.com/), [Michael McAnally](http://michaelmcanally.info/)
-  Open VR Server using NAF -showcasing Art Gallery, Treasure Island, VR Office and WebXR Blog with tutorial articles
 - [Poker](https://danb.io/pokxr/), [Dan B](http://danb.io)
   Live multiplayer poker, with live video for faces
+- [Fun Bit 64](https://funbit64.com/), [Michael McAnally](http://michaelmcanally.info/)
+  Open VR Server using NAF -showcasing Art Gallery, Treasure Island, VR Office and WebXR Blog with tutorial articles
+
+### Experiments from [Akbar S.](https://github.com/akbartus)
+
+- [GTLF Manipulator](https://github.com/akbartus/A-Frame-Component-GLTF-Manipulator), [Akbar S.](https://github.com/akbartus)
+  Component which allows to edit individual nodes of a file, including replace texture, add color, move parts, etc. There are many creative projects which make use of GLTF editing in the runtime, including change of texture of 3D models to show various designs/create coloring pages.
+- [Volumetric Video](https://github.com/akbartus/A-Frame-Volumetric-Video-Component)
+  Volumetric videos in A-Frame. It is based on [Volograms](https://twitter.com/volograms). The creation of the component was inspired from similar works of Remy Mellet [Volograms.js](https://github.com/remmel/volograms-js), [A-Frame Volograms](https://github.com/remmel/aframe-volograms) and Volograms' playback library [vol_libs](https://github.com/Volograms/vol_libs).
+- [SpotLight with Texture](https://github.com/akbartus/A-Frame-SpotLight-with-Texture-Component)
+- Component which lets project textures (which can be both images and videos) on mesh surfaces called "Spotlight Texture Component". The component was created based on the works by Marco Fugaro named [Three Projected Material](https://github.com/marcofugaro/three-projected-material), Codrops Texture Projection as well as Spotlight example provided in [Three.js library](https://threejs.org/examples/#webgl_lights_spotlight).
+- [GLTF PointCloud Transitions](https://github.com/akbartus/A-Frame-Component-GLTF-PointCloud-Transitions)
+  Component which lets you do point cloud based transitions. Basically, you load at least two GLTF files and get smoothly animated transition effect. It was developed based on [3D Models Transitions and Mouse Hovering Effects — ThreeJS](https://medium.com/@mahmed07041/3d-models-transitions-and-mouse-hovering-effects-threejs-664280bd8274) article on Medium.com and Austin Mayer's [portfolio project](https://twitter.com/amayer_/status/1098662776929693706).
 
 ## General WebXR
 
