@@ -89,7 +89,7 @@ This workflow is pretty seamless after your first pass through.
 
 ## Alternative Home Raspberry Pi Development Environment
 As an alternative to using Glitch or a paid server in the cloud, or in addition to it. It is possible to develop, test and host on a Raspberry Pi Model 4B 8GB on your own home network for what you are already paying your internet service provider monthly (hence essentially free, minus cost of Pi hardware). Requires opening ports on your router for outside internet access (sometimes a little tricky, depending on your networks setup).
-* [Long and detailed article explaining how]. (https://michael-mcanally.medium.com/setting-up-a-raspberry-pi-as-a-home-metaverse-server-for-your-vr-headset-12632ac1b871)
+* [Long and detailed article explaining how](https://michael-mcanally.medium.com/setting-up-a-raspberry-pi-as-a-home-metaverse-server-for-your-vr-headset-12632ac1b871)
 
 ## ngrok
 nrgok (https://ngrok.com/) is a really useful tool that can set up a publicly accessible HTTPS tunnel to an HTTP port on your local system.
