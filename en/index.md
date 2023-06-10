@@ -31,7 +31,7 @@ If you want other info, check out these pages:
 | [Learning Resources](pages/learn.md)        | Get some education                                                                  |
 | [Memory](pages/memory.md)                   | Advanced info relating to preventing memory leaks when deleting stuff on your scene |
 | [Multi-user](pages/multiuser.md)            | Technologies for multi-user experiences over the network                            |
-| [Monetizations](pages/monetizations.md)     | Making money with a webXR site                                                      |
+| [Monetization](pages/monetization.md)       | Making money with a webXR site                                                      |
 | [Performance](pages/performance.md)         | How fast is A-Frame, and how can we make it as fast as possible?                    |
 | [Physics](pages/physics.md)                 | Discussion on the options available for adding real time physics to your scene      |
 | [Postprocessing](pages/postprocessing.md)   | State of postprocessing effects in A-Frame and examples                             |
