@@ -1,5 +1,5 @@
 <h1>Performance</h1>
-<p>Some very rough notes. Also see <a href="https://aframe.wiki/en/gltf">GLTF/ GLB</a>.&nbsp;<br><br>&nbsp;</p>
+<p>Some very rough notes. Also see <a href="https://aframe.wiki/en/#!pages/gltf.md">GLTF/ GLB</a>.&nbsp;<br><br>&nbsp;</p>
 <h2>Native vs. WebGL</h2>
 <blockquote>
 <p>Here’s the truth: Using WebGL for your rendering IS slower than doing the same thing with native code. But it’s only slower in very specific ways, and if you know what they are you can work on avoiding them.</p>
