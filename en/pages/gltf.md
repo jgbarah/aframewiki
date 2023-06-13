@@ -1,8 +1,3 @@
-
-A-Frame-Wiki
-Search...
-Viewing source of page /gltf
-ID 24
 # Working with GLTF & GLB 3D assets
 The de-facto 3d model file format of the web.
 ### GLTF vs. GLB?
@@ -15,6 +10,7 @@ It's a file format that is ideal for using 3d models on the web. It uses JSON. I
 ## Making GLTFs
 - play around: https://threejs.org/editor/
 - serious: blender
+
 ## GLTF tools
 - https://thirdroom.io/pipeline
 - https://gltf.report/
@@ -23,8 +19,10 @@ It's a file format that is ideal for using 3d models on the web. It uses JSON. I
 - [meshOptimizer](https://github.com/zeux/meshoptimizer)
 - https://github.khronos.org/glTF-Sample-Viewer-Release/
 - https://sandbox.babylonjs.com/
+
 ## Optimizing GLTF assets
 stub, but ideally we add detailed info on all of these:
+
 - [reduce draw calls](https://answers.unity.com/questions/14578/whats-the-best-way-to-reduce-draw-calls.html)
 - decimate geometry
 - merge geometry
@@ -35,8 +33,10 @@ stub, but ideally we add detailed info on all of these:
 - **use KTX2**
 - use [meshOptimizer](https://github.com/zeux/meshoptimizer) or [zencompress](https://paradowski.com/stories/introducing-zencompress-for-gltf)
 - use LOD
+
 ### some resources
 stub, ideally we put all this info in this article:
+
 - https://toji.github.io/webxr-scene-optimization/
 - https://www.soft8soft.com/docs/manual/en/introduction/Optimizing-WebGL-performance.html
 - https://kb.kaon.com/optimizing-large-3d-models-for-the-web
@@ -45,14 +45,18 @@ stub, ideally we put all this info in this article:
 - https://www.youtube.com/watch?v=vLJGO_upYEc
 - https://www.youtube.com/watch?v=6ONoVEcyMqI
 - https://www.8thwall.com/glb
+
 ## Textures
 They make your models look good.
+
 - Get some good creative commons one for free: https://www.sharetextures.com/
 - learn the absolute basics in this [super short tutorial for total noobs](https://www.youtube.com/watch?v=sH4qi3oUEks)
+
 ## Animations
 - https://www.mixamo.com/#/
 - https://github.com/c-frame/aframe-extras
 - https://github.com/c-frame/aframe-extras/blob/master/src/loaders/animation-mixer.js
+
 ## Free models
 - Polyhaven
 - SketchFab
