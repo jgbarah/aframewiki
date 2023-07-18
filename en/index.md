@@ -2,7 +2,10 @@
 
 This is the modern home of the successor to the discontinued A-Frame Registry, the [Component Directory](https://aframe.wiki/en/#!pages/component-directory.md).
 
-Support A-Frame by <a href="https://github.com/sponsors/dmarcos">becoming a contributor on github</a>, or <a href="https://cottonbureau.com/products/a-frame-og#/9479538/tee-men-standard-tee-vintage-black-tri-blend-s">buying a shirt</a>, or by [Sponsoring the maintainers on Github](https://github.com/sponsors/dmarcos).
+## Sponsoring
+
+Support A-Frame by <a href="https://github.com/sponsors/dmarcos">becoming a dmarcos sponsor on GitHub</a>, or <a href="https://cottonbureau.com/products/a-frame-og#/9479538/tee-men-standard-tee-vintage-black-tri-blend-s">buying a shirt</a>, or by [sponsoring maintainers on specific tasks](https://github.com/c-frame/sponsorship).
+
 If you've done that and want to also support this wiki's server and the aframe.wiki domain cost by donating a coffee, you can do that here:<br>
 <a href='https://ko-fi.com/C0C33CWNA' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
