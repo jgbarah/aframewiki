@@ -46,6 +46,9 @@ MindAR is an opensource web augmented reality library which is compatible with A
 ## Martins.js
 MARTINS.js is a GPU-accelerated Augmented Reality engine for the web, which is compatible with Chrome, Edge, Firefox and Opera browsers. It supports mainly image tracking functionality. To learn more visit its [GitHub page](https://github.com/alemart/martins-js).
 
+## SimpleAR
+New open-source web-based augmented reality library, which is based on WebAssembly(WASM). It supports image tracking without pre-training stage. it is compatible with major web frameworks such as A-Frame, Three.js and Babylon.js. It is currently under active development. To learn more visit its [GitHub page](https://github.com/akbartus/Simple-AR).
+
 ## Model Viewer
 For many simple cases (especially store-based concepts), the [Model Viewer library](https://modelviewer.dev/docs/#augmentedreality-attributes) will be a good solution to placing a model in AR. It falls back well on iOS devices.
 
