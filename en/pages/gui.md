@@ -18,11 +18,11 @@ This component doesn't support:
 - scrolling
 - dynamically resizing the div ([draft PR](https://github.com/AdaRoseCannon/aframe-htmlmesh/pull/14))
 - text input
-- blur, focus, active, hover ([draft PR for hover on buttons](https://github.com/AdaRoseCannon/aframe-htmlmesh/pull/9), you need a css rule with `button:hover,button.hover`),
+- blur, focus, active, hover ([draft PR for hover on buttons](https://github.com/AdaRoseCannon/aframe-htmlmesh/pull/9), you need a css rule with `button:hover,button.hover`)
 - svg
 - scaling the plane. You can change the scaling value in the code [here](https://github.com/AdaRoseCannon/aframe-htmlmesh/blob/cd491eae3d33b442f80eadfb5dd1c8f48dd684f3/src/HTMLMesh.js#L21) but it would be better if this was configurable.
 - css animations
-- unsupported css properties (not exhaustive): box-shadow, background-image
+- unsupported css properties (not exhaustive): box-shadow, background-image, [:after](https://github.com/AdaRoseCannon/aframe-htmlmesh/issues/16)
 
 It supports:
 
