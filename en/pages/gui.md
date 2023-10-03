@@ -22,7 +22,7 @@ This component doesn't support:
 - svg
 - scaling the plane. You can change the scaling value in the code [here](https://github.com/AdaRoseCannon/aframe-htmlmesh/blob/cd491eae3d33b442f80eadfb5dd1c8f48dd684f3/src/HTMLMesh.js#L21) but it would be better if this was configurable.
 - css animations
-- unsupported css properties (not exhaustive): box-shadow, background-image, [:after](https://github.com/AdaRoseCannon/aframe-htmlmesh/issues/16)
+- unsupported css properties (not exhaustive): box-shadow, background-image, [:before or :after with content](https://github.com/AdaRoseCannon/aframe-htmlmesh/issues/16)
 
 It supports:
 
