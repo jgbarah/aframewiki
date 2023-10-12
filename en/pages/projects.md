@@ -20,6 +20,8 @@ Ever opened your quest and wondered where those suggest webxr projects come from
   The quintessential demo, developed by maintainers of A-Frame, and played by many people every day. (btw: check out this [old direct beatsaber clone](https://github.com/sidequestlegend/supersaber)... would be cool to get that running again)
 - [Planets By Earth](https://www.kodub.com/apps/planetsbyearth)
   A neat app featured in the A-Frame blog.
+- [vr-planets](https://travisbarrydick.github.io/vr-planets/dist/)
+  Play with orbital dynamics
 - [Tetris](https://blocksarcade.xyz/)
   Hands-on Tetris!
 - [VARTISTE](https://vartiste.xyz/)
