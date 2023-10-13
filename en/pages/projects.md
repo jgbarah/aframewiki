@@ -92,6 +92,8 @@ This are also WebXR apps you can experience in VR, but is it either unknown if t
   2nd place, 2022 js13k competition
 - [Niantic / 8thWall's Wol mixed reality experiment](https://meetwol.com), see [article](https://nianticlabs.com/news/meetwol)
   It runs on anything with the AR parts of WebXR, so you can experience it on phones and even the Quest.
+- [Virtual Ice Tours](https://virtualice.byrd.osu.edu/)
+  Interactive presentations on the activities of the Byrd Polar & Climate Research Center
 
 ### Old WebVR (pre-WebXR spec) projects
 
