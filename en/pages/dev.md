@@ -33,6 +33,13 @@ For more broad usage, the [WebXR Emulator Extension](https://chrome.google.com/w
 
 For all headsets, you can copy and paste an url on [hmd.link](https://hmd.link), then on the headset access hmd.link and click.
 
+You can add a bookmarklet to easily use the service, see
+[article](https://timmykokke.com/blog/2023-10-29-hmd.link-bookmarklet/).
+
+```js
+javascript:(function()%7Bwindow.location.href%20%3D%20%22https%3A%2F%2Fhmd.link%3F%22%2Bwindow.location.href%7D)()
+```
+
 ### Meta Quest Web Launch
 
 For Meta headsets, see [Meta Quest: Use Web Launch to Send Links to Headsets from the Web](https://developer.oculus.com/documentation/web/web-launch/)
