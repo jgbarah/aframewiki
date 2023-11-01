@@ -22,6 +22,7 @@ If you want other info, check out these pages:
 | [AR](pages/ar.md)                           | Augmented Reality with A-Frame                                                      |
 | [Audio & Video](pages/audio-video.md)       | Using Audio and Video files in A-Frame                                              |
 | [GLTF](pages/gltf.md)                       | Lots of resources regarding working with .gltf and .glb file formats                |
+| [KTX2](pages/ktx2.md)                       | Optimize glTF models or png images using KTX2                                       |
 | [Best Practices](pages/best-practices.md)   | Stub with some useful resources on doing webXR right                                |
 | [Community](pages/community.md)             | Where to find A-Frame people                                                        |
 | [Contribute](pages/contribute.md)           | Recommendations for contributing to A-Frame                                         |

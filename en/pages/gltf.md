@@ -34,7 +34,7 @@ stub, but ideally we add detailed info on all of these:
 - use a texture atlas
 - use power-of-two size textures
 - bake lighting
-- **use KTX2**
+- **use [KTX2](ktx2.md)**
 - use [meshOptimizer](https://github.com/zeux/meshoptimizer) or [zencompress](https://paradowski.com/stories/introducing-zencompress-for-gltf)
 - use LOD
 
