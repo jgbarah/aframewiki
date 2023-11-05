@@ -1,9 +1,33 @@
 # Using KTX2
 
 On Safari iOS your page may refresh several times then give up because of memory constraint because you're using too many 4k or 8k jpg/png textures. The GPI memory constraint applies to all images that are uploaded to the GPU, with 3d models, or aframe `material` component that references an image.
+## Install toktx and gltf-transform commands
+
+Install the `toktx` command from https://github.com/KhronosGroup/KTX-Software
+
+On Ubuntu with bash shell:
+
+```sh
+sudo apt install git git-lfs build-essential cmake
+git clone git@github.com:KhronosGroup/KTX-Software.git
+cd KTX-Software/
+./install-gitconfig.sh
+./ci_scripts/smudge_date.sh
+cmake . -B build
+cmake --build build
+export PATH="/home/youruser/KTX-Software/build/tools/toktx:$PATH"
+# modify youruser and full path accordingly, you can put this export line in your ~/.bashrc
+```
+
+Install the `gltf-transform` command from npm https://www.npmjs.com/package/@gltf-transform/cli
+
+```sh
+npm install --global @gltf-transform/cli
+```
 ## Optimizing glTF models
 
-You can use the `gltf-transform optimize` command to optimize glTF models, for textures by default it auto recompresses in original format and resize to 2048 max. You can add `--texture-compress ktx2` option to convert the textures to 2048 max in ktx2 format (etc1s / uastc) saving a lot of GPU memory. The command also applies other optimizing steps, like draco compression.
+You can use the `gltf-transform optimize` command to optimize glTF models, for textures by default it auto recompresses in original format and resize to 2048 max. You can add `--texture-compress ktx2` option to convert the textures to 2048 max in ktx2 format (etc1s / uastc) saving a lot of GPU memory. Be aware it can take a lot of time to convert the textures to ktx2 format that is using the toktx command, depending of the model it could take 20 or 40 min... probably because of the default values used by `gltf-transform` for the  `toktx` command that uses `--uastc 4` (level 4 is very slow but higher quality).
+The command also applies other optimizing steps, like draco compression.
 
 An example of usage:
 
@@ -34,7 +58,7 @@ It was with the `.basis` extension, now the standard is `.ktx2`.
 To install the `basisu` command on Ubuntu:
 
 ```sh
-sudo apt-get install git build-essential cmake make
+sudo apt install git build-essential cmake
 git clone https://github.com/BinomialLLC/basis_universal.git
 cd basis_universal
 cmake CMakeLists.txt
