@@ -1,17 +1,18 @@
 # Using KTX2
 
-On Safari iOS your page may refresh several times then give up because of memory constraint because you're using too many 4k or 8k jpg/png textures. The gpu memory constraint applies to all images that are uploaded to the gpu, with 3d models, or aframe `material` component that references an image.
+On Safari iOS your page may refresh several times then give up because of memory constraint because you're using too many 4k or 8k jpg/png textures. The GPI memory constraint applies to all images that are uploaded to the GPU, with 3d models, or aframe `material` component that references an image.
 ## Optimizing glTF models
 
-You can use the `gltf-transform optimize` command to optimize glTF models, by default it converts the textures to 2k ktx2 (etc1s / uastc) saving a lot of gpu memory and also applies lots of other steps.
+You can use the `gltf-transform optimize` command to optimize glTF models, for textures by default it auto recompresses in original format and resize to 2048 max. You can add `--texture-compress ktx2` option to convert the textures to 2048 max in ktx2 format (etc1s / uastc) saving a lot of GPU memory. The command also applies other optimizing steps, like draco compression.
 
 An example of usage:
 
 ```sh
-gltf-transform optimize car.glb car-optimized.glb --simplify false
+gltf-transform optimize car.glb car-optimized.glb --simplify false --texture-compress ktx2
 ```
 
-It optimize the `car.glb` model generating a new `car-optimized.glb` file, disabling the `simplify` step that didn't do great on this model. See options in [gltf-transform cli documentation](https://gltf-transform.dev/cli)
+It optimizes the `car.glb` model generating a new `car-optimized.glb` file, disabling the `simplify` step (Simplify mesh geometry with meshoptimizer) that didn't do great on this model. See options in [gltf-transform cli documentation](https://gltf-transform.dev/cli) and the default steps with the default values in [cli.ts](https://github.com/donmccurdy/glTF-Transform/blob/main/packages/cli/src/cli.ts#L235) (search for the OPTIMIZE comment in this file).
+Another step you may want to disable is the palette step "Creates palette textures and merges materials" with `--palette false` if you use the model with a color picker in your scene.
 
 For use the new model with aframe, you will need to have the draco decoder path and basis transcoder path correctly configured like this:
 
