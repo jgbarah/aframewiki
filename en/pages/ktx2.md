@@ -26,16 +26,21 @@ npm install --global @gltf-transform/cli
 ```
 ## Optimizing glTF models
 
-You can use the `gltf-transform optimize` command to optimize glTF models, for textures by default it auto recompresses in original format and resize to 2048 max. You can add `--texture-compress ktx2` option to convert the textures to 2048 max in ktx2 format (etc1s / uastc) saving a lot of GPU memory. Be aware it can take a lot of time to convert the textures to ktx2 format that is using the toktx command, depending of the model it could take 20 or 40 min... probably because of the default values used by `gltf-transform` for the  `toktx` command that uses `--uastc 4` (level 4 is very slow but higher quality).
+You can use the `gltf-transform optimize` command to optimize glTF models, for textures by default it auto recompresses in original format and resize to 2048 max.
+You can add `--texture-compress ktx2` option to convert the textures to ktx2 format (etc1s / uastc) saving a lot of GPU memory, but it won't resize to 2048 max anymore, you will need to run a `gltf-transform resize` first to resize the jpg/png textures to 2048 max.
+Be aware it can take a lot of time to convert the textures to ktx2 format that is using the toktx command, depending of the model it could take 20 or 40 min... probably because of the default values used by `gltf-transform` for the  `toktx` command that uses `--uastc 4` (level 4 is very slow but higher quality).
 The command also applies other optimizing steps, like draco compression.
 
 An example of usage:
 
 ```sh
-gltf-transform optimize car.glb car-optimized.glb --simplify false --texture-compress ktx2
+gltf-transform resize --width 2048 --height 2048 car.glb car_resized.glb
+gltf-transform optimize --texture-compress ktx2 car_resized.glb car_optimized_ktx2.glb
 ```
 
-It optimizes the `car.glb` model generating a new `car-optimized.glb` file, disabling the `simplify` step (Simplify mesh geometry with meshoptimizer) that didn't do great on this model. See options in [gltf-transform cli documentation](https://gltf-transform.dev/cli) and the default steps with the default values in [cli.ts](https://github.com/donmccurdy/glTF-Transform/blob/main/packages/cli/src/cli.ts#L235) (search for the OPTIMIZE comment in this file).
+It optimizes the `car.glb` model generating a new `car_optimized_ktx2.glb` file.
+If the mesh has too much degradation, you may want to disable the `simplify` step (Simplify mesh geometry with meshoptimizer) with the `--simplify false` option.
+See options in [gltf-transform cli documentation](https://gltf-transform.dev/cli) and the default steps with the default values in [cli.ts](https://github.com/donmccurdy/glTF-Transform/blob/main/packages/cli/src/cli.ts#L235) (search for the OPTIMIZE comment in this file).
 Another step you may want to disable is the palette step "Creates palette textures and merges materials" with `--palette false` if you use the model with a color picker in your scene.
 
 For use the new model with aframe, you will need to have the draco decoder path and basis transcoder path correctly configured like this:
