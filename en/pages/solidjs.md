@@ -2,13 +2,17 @@
 
 The following are notes from Vincent Fretin.
 
+You can use [SolidJS](https://www.solidjs.com) (without SolidStart/vite for now, so no SSR) with aframe and networked-aframe.
+You need to create `index.html` and put script tags (aframe and other components) and template tags (for networked-aframe) in it.
+
+See [/naf-nametag-solidjs](https://github.com/networked-aframe/naf-nametag-solidjs) example.
+
 ## Rendering the scene
 
-You can use [SolidJS](https://www.solidjs.com) (without SolidStart for now) with aframe and networked-aframe.
-You need to create `index.html` and put script tags (aframe and other components) and template tags (for networked-aframe) in it.
-You can render your scene with a SolidJS component. The only gotcha is to use `attr:` on your components for them to be reactive. This applies to any web components, see the [mention in SolidJS documentation](https://www.solidjs.com/docs/latest/api#attr___).
+You can go further and use SolidJS router and render your scene with a SolidJS component.
+The only gotcha is to use `attr:` on your components for them to be reactive. This applies to any web components, see the [mention in SolidJS documentation](https://www.solidjs.com/docs/latest/api#attr___).
 
-In the root of your app, render scene like that:
+You can render the scene like this:
 
 ```js
 <Scene scene={scene()} />
