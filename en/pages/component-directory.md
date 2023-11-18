@@ -126,7 +126,6 @@ If you find something that isn't here add it! If you build something, add it! Ol
 | image-particles | Image particles component  for A-Frame (allows generating particles from any images) | [Repo](https://github.com/akbartus/A-Frame-Component-Image-Particles) | [Example](https://img-particles.glitch.me/) | Maintained | 1.4.2 | |
 | instanced-mesh | Instancing support for A-Frame (allows rendering of multiple instances of a mesh with a single draw call) | [Repo](https://github.com/diarmidmackenzie/instanced-mesh) | [Example](https://github.com/diarmidmackenzie/instanced-mesh#examples) | Actively Maintained | 1.4.2 | |
 | interactive-book | make pdfs into interactive books | [Repo](https://github.com/stemkoski/A-Frame-Examples/blob/master/js/interactive-book.js) | [Example](https://stemkoski.github.io/A-Frame-Examples/quest-book.html) | Unkown | 1.3.0 | |
-| jump-ability | Allows player to jump using keyboard or gamepad, when physics is enabled. *Not VR-friendly*. | [Repo](https://github.com/c-frame/aframe-extras/tree/master/src/misc) | None | Unknown| 0.9+ | |
 | keyboard | Component that renders a fully functional 3D keyboard, that works on mobile, desktop browers, and VR headsets. | [Repo](https://github.com/WandererOU/aframe-keyboard) | [Example](https://wandererou.github.io/aframe-keyboard/examples/basic/index.html) | Unknown | 1.0.4 | super-keyboard |
 | keyboard-controls with movement-controls | WASD + arrow controls for movement, and more. | [Repo](https://github.com/c-frame/aframe-extras/tree/master/src/controls) | None | Maintained | 1.4.2 |  |
 | label                                    | Labels stay a fixed size, always face the camera, and can be configured to display even when obscured behind other objects | [Repo](https://diarmidmackenzie.github.io/aframe-components/components/label/) | [Example](https://diarmidmackenzie.github.io/aframe-components/component-usage/labels.html) | Maintained | 1.4.2 | |
@@ -143,7 +142,6 @@ If you find something that isn't here add it! If you build something, add it! Ol
 | look-at | Rotate an entity to face towards another entity in A-Frame | [Repo](https://github.com/supermedium/superframe/tree/master/components/look-at/) | [Example](https://supermedium.com/superframe/components/look-at/), [stemkoski](https://stemkoski.github.io/A-Frame-Examples/sprites.html) | Unknown | Unknown | |
 | mapbox| A Mapbox component for A-Frame | [Repo](https://github.com/mattrei/aframe-mapbox-component) | [Example](https://mattrei.github.io/aframe-mapbox-component/) | Unknown| 1.0.4 | geothree |
 | maze | generates mazes | [Repo](https://github.com/mitchallen/aframe-maze-component) | [Example](https://mitchallen.bitbucket.io/) | Unknown | 0.7.1 ||
-| mesh-smooth| Apply to models that looks "blocky", to have Three.js compute vertex normals on the fly for a "smoother" look. | [Repo](https://github.com/c-frame/aframe-extras/tree/master/src/misc) | None | Unknown| 0.9+ | |
 | mesh-particles | aframe component for mesh particles | [Repo](https://github.com/harlyq/aframe-mesh-particles-component), [stemkoski](https://github.com/stemkoski/A-Frame-Examples/blob/master/js/aframe-mesh-particles-component.js) | [Example](https://harlyq.github.io/aframe-mesh-particles-component/), [stemkoski](https://stemkoski.github.io/A-Frame-Examples/particles.html) | Working | 1.3.0 ([read the comment](https://github.com/harlyq/aframe-mesh-particles-component/pull/1#issuecomment-1371983848)) | dust, particle-system |
 | metronome| A simple component that fires events at specified intervals. Useful for musical looping applications. | [Repo](https://github.com/rserota/aframe-metronome-component) | No known examples. | Unknown| Unknown| |
 | mirror | `<a-mirror>`: Mirror component and primitive for high-quality mirrors (Instead of rendering to a texture, it uses a stencil buffer and renders directly into the framebuffer.) | [Repo](https://github.com/mrxz/fern-aframe-components/tree/main/mirror) | [Example](https://aframe-components.fern.solutions/mirror/) | Maintained | 1.4.2 | |
@@ -157,7 +155,7 @@ If you find something that isn't here add it! If you build something, add it! Ol
 | nav-agent | Adds behaviors to an entity allowing it to navigate to any reachable destination along the nav mesh. | [Repo](https://github.com/c-frame/aframe-extras/tree/master/src/pathfinding) | None | Maintained | 1.4.2 | |
 | nav-mesh | Assigns model from the current entity as a [navigation mesh](https://en.wikipedia.org/wiki/Navigation_mesh) for the pathfinding system. | [Repo](https://github.com/c-frame/aframe-extras/tree/master/src/pathfinding) | None | Maintained | 1.4.2 | simple-navmesh-constraint |
 | networked-aframe | A web framework for building multi-user virtual reality experiences. Components: networked-scene networked networked-audio-source networked-video-source networked-hand-controls. Supports websockets with socket.io for data only (wseasyrtc adapter), WebRTC audio, video and datachannels (easyrtc adapter), SFU with janus-gateway (janus adapter). | [Repo](https://github.com/networked-aframe/networked-aframe) | [Example](https://naf-examples.glitch.me) | Maintained| 1.4.2 | broadcast, firebase |
-| normal-material | Applies a MeshNormalMaterial to the entity, such that face colors are determined by their orientation. Helpful for debugging geometry. | [Repo](https://github.com/c-frame/aframe-extras/tree/master/src/misc) | None | Unknown| 0.9+ | |
+| normal-material | Applies a MeshNormalMaterial to the entity, such that face colors are determined by their orientation. Helpful for debugging geometry. | [Repo](https://github.com/c-frame/aframe-extras/tree/master/src/misc) | None | Maintained | 1.4.2 | |
 | object-model | Loader for THREE.ObjectLoader-compatible models. | [Repo](https://github.com/c-frame/aframe-extras/tree/master/src/loaders) | None | Maintained | 1.4.2 | |
 | object-parent | Switch parent of an object3D | [Repo](https://diarmidmackenzie.github.io/aframe-components/components/object-parent/) | None | Maintained | 1.3.0 | |
 | ocean | Flat-shaded, animated ocean primitive and component.| [Repo](https://github.com/c-frame/aframe-extras/tree/master/src/primitives) | None | Maintained | 1.4.2 | |
@@ -244,14 +242,16 @@ There are a few components included in the collections referenced above that I h
 | ---------------------------------------- | ---------------- | ------------------------------------------------------------ |
 | animation | A-Frame Registry | Superseded by A-Frame built-in animation component|
 | auto-detect-controllers | A-Frame Registry | Superseded by A-Frame built-in tracked-controls component |
+| collada-model-legacy | A-Frame Extras | Removed from A-Frame in 0.9.0 - Collada models no longer recommended. |
 | controller-cursor | A-Frame Registry | Superseded by A-Frame built-in cursor component |
-| json-model | A-Frame Registry | Claims to be part of aframe-extras, but I can't see it in there. |
+| cube-env-map | A-Frame Extras | Cubemaps are now supported natively in A-Frame via the a-cubemap element. |
 | gear-vr-controls | A-Frame Registry | Superseded by A-Frame built-in gearvr-controls component |
+| gltf-model-legacy | A-Frame Extras | GLTF 1.0 support. Recommended to use GLTF 2.0 wherever possible. |
+| json-model | A-Frame Registry | Claims to be part of aframe-extras, but I can't see it in there. |
+| jump-ability | A-Frame Extras | Removed in aframe-extras 7.0.0 |
+| kinematic-body | A-Frame Extras | Removed in aframe-extras 7.0.0 |
 | lerp | A-Frame Registry | Superseded by A-Frame built-in animation component|
 | line | A-Frame Registry | GitHub repo no longer exists. |
+| mesh-smooth | A-Frame Extras | Removed in aframe-extras 7.0.0 |
 | rain | A-Frame Registry | Unmaintained, and doesn't seem to add anything over what's available in aframe-particle-system (which is maintained) |
 | stats-in-vr | A-Frame Registry | Superseded by [vr-super-stats](https://github.com/kylebakerio/vr-super-stats) |
-| collada-model-legacy | A-Frame Extras | Removed from A-Frame in 0.09.0 - Collada models no longer recommended. |
-| gltf-model-legacy | A-Frame Extras | GLTF 1.0 support. Recommended to use GLTF 2.0 wherever possible. |
-| kinematic-body| A-Frame Extras | Deprecated |
-| cube-env-map| A-Frame Extras | Cubemaps are now supported natively in A-Frame via the a-cubemap element. |
