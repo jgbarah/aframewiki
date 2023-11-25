@@ -46,13 +46,22 @@ Another step you may want to disable is the palette step "Creates palette textur
 For use the new model with aframe, you will need to have the draco decoder path and basis transcoder path correctly configured like this:
 
 ```js
-<a-scene gltf-model="dracoDecoderPath:https://www.gstatic.com/draco/versioned/decoders/1.5.6/;basisTranscoderPath:https://cdn.jsdelivr.net/npm/three@0.154.0/examples/jsm/libs/basis/">
+<a-scene gltf-model="dracoDecoderPath:https://www.gstatic.com/draco/versioned/decoders/1.5.6/;meshoptDecoderPath:https://unpkg.com/meshoptimizer@0.19.0/meshopt_decoder.js;basisTranscoderPath:https://cdn.jsdelivr.net/npm/three@0.154.0/examples/jsm/libs/basis/">
 ```
 
 Check the [gltf-model aframe documentation](https://github.com/aframevr/aframe/blob/master/docs/components/gltf-model.md#using-compression) for up to date versions to use here.
 
 You can look at the memory usage of your model with https://gltf.report/ site.
 Vincent: The memory reduction is insane, for a scene that I couldn't load on Quest 1, it was vram 1.1 GB, with optimization it shrinked to vram 220 MB.
+
+## Using meshopt instead of draco
+
+Some models like avatars from [VALID](https://github.com/xrtlab/Validated-Avatar-Library-for-Inclusion-and-Diversity---VALID) may have a better size reduction if you compress the geometries with meshopt instead of draco which is the default. Here is an example of using meshopt compression and webp textures with simplify step disabled:
+
+```sh
+gltf-transform optimize --simplify false model.glb model_webp_meshopt.glb --texture-compress webp --compress meshopt
+```
+
 # Converting png to ktx2
 
 Vincent: Also I did recently an experience with 8192x8192 360 stereo image generated with AI models, that I converted to ktx2 with the `basisu` command and loaded with `KTX2Loader`. The images loads smoothly on Quest 1.
