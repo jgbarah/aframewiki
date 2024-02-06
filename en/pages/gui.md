@@ -28,7 +28,7 @@ It supports:
 
 - text
 - images with img tags ([without border/padding on them](https://github.com/mrdoob/three.js/pull/25925#issuecomment-1523743648), but you can use border/padding on the parent element), it doesn't support css background-image. Be aware you need to make sure that the images are loaded before rendering the htmlmesh, the logic of rerendering the htmlmesh when the images are loaded is not implemented neither in HTMLMesh nor in aframe-htmlmesh, but could be an enhancement to make in aframe-htmlmesh (something similar to [this](https://github.com/mrdoob/three.js/pull/24043/files#diff-03bfe85f34eecb74c4414a3631d2b42f889587d3bcfbd661f65c789829a242d8R456-R464)).
-- button (If you're generating the html with solid and maybe react, see [this issue](https://aframe.wiki/en/#!pages/solidjs.md#Click_on_button_with_aframe-htmlmesh) about the click event.)
+- button (If you're generating the html with solid and maybe react, see [this issue](solidjs.md#Click_on_button_with_aframe-htmlmesh) about the click event.)
 - radio and checkbox
 - range input
 - canvas if you have a graph or something, but it will be rendered at position (0, 0) thus overriding any other elements rendered before it
