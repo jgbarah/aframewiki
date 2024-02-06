@@ -67,7 +67,7 @@ These links show benchmark tests comparing Ammo.js and PhysX (alightly modified 
 
 For static non-repeating geometries, merging is probably a better solution than instancing.
 
-I'm not aware of an A-Frame component that simplifies this, but THREE.js [BufferGeometryUtils](https://threejs.org/docs/#examples/en/utils/BufferGeometryUtils) provides `mergeBufferGeometries` which is fairly easy to use. (note: there was an old one in the supermedium repo, but it probably fell out of date and wasn't updated as three geometry was updated. may be a useful starting point though.)
+I'm not aware of an A-Frame component that simplifies this, but THREE.js [BufferGeometryUtils](https://threejs.org/docs/#examples/en/utils/BufferGeometryUtils) provides `mergeBufferGeometries` which is fairly easy to use. (There was an old one in the supermedium repo, but it probably fell out of date and wasn't updated as three geometry was updated. It may be a useful starting point though.)
 
 See [this module](https://github.com/diarmidmackenzie/christmas-scene/blob/main/research/composite-objects/custom-geometries.js) for a range of examples of how this can be used (both with single & multiple materials).
 
