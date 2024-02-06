@@ -1,6 +1,6 @@
 # Welcome to the A-Frame Wiki
 
-This is the modern home of the successor to the discontinued A-Frame Registry, the [Component Directory](https://aframe.wiki/en/#!pages/component-directory.md).
+This is the modern home of the successor to the discontinued A-Frame Registry, the [Component Directory](component-directory.md).
 
 ## Sponsoring
 

@@ -8,7 +8,7 @@ WebXR, and WebGL, are fast-moving, cutting edge frontiers of the web. A-Frame is
 Contributions like these stand out and get you noticed in the community, and can often be very low effort.
 
 ## A-Frame Core
-- [Docs always need updating](https://aframe.wiki/en/open-source)! Just peruse the docs, and contribute inline by clicking the "edit this page" button on the right, as you read, if you notice anything that has fallen behind.
+- Docs always need updating! Just peruse the [A-Frame documentation](https://aframe.io/docs/master/introduction/), and contribute inline by clicking the "edit this page" button on the right, as you read, if you notice anything that has fallen behind.
 - [A-Frame inspector](https://github.com/aframevr/aframe-inspector) is an incredible tool we all use constantly in our projects that has several console warnings and errors that show up, and has had a few features fall by the wayside. Some updates here would be a huge help everyone in the community.
 - [A-Frame School](https://aframe.io/aframe-school/) is still a common first point of contact with A-Frame. While it's still extremely useful, a few parts have fallen slightly out of date--this gives a poor impression to newbies, so cleaning this up could be high leverage in bringing new coders into the fold. It seems the source for it can be found [here](https://github.com/aframevr/aframe-school/blob/master/content.md).
 

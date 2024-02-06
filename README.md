@@ -1,4 +1,4 @@
-# [The A-Frame Wiki](http://aframe.wiki)
+# The A-Frame Wiki
 
 Home of the Component Directory
 
