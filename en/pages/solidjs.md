@@ -47,20 +47,18 @@ I'm trying to convert my project to SolidStart so to vite, but I struggle to imp
 To avoid having errors in vscode, you can add an `aframe.d.ts` file in your project with the following content:
 
 ```js
-declare global {
-  declare module "solid-js" {
-    namespace JSX {
-      interface IntrinsicElements {
-        "a-scene": any;
-        "a-entity": any;
-        "a-assets": any;
-        "a-asset-item": any;
-        "a-mixin": any;
-        "a-sphere": any;
-        "a-torus": any;
-        "a-gltf-model": any;
-        "a-light": any;
-      }
+declare module "solid-js" {
+  namespace JSX {
+    interface IntrinsicElements {
+      "a-scene": any;
+      "a-entity": any;
+      "a-assets": any;
+      "a-asset-item": any;
+      "a-mixin": any;
+      "a-sphere": any;
+      "a-torus": any;
+      "a-gltf-model": any;
+      "a-light": any;
     }
   }
 }
@@ -75,8 +73,8 @@ npm install -D @types/aframe
 Example:
 
 ```js
-import type { AEntity } from "aframe";
-const cameraRig = document.getElementById("cameraRig")! as typeof AEntity;
+import type { Entity } from "aframe";
+const cameraRig = document.getElementById("cameraRig") as Entity;
 cameraRig.setAttribute("movement-controls", "enabled", false);
 ```
 
